@@ -15,7 +15,7 @@
   },
 
   "background": {
-    "scripts": ["polyfills/browser-polyfill.min.js", "lib/background.js"]
+    "page": "lib/background.html"
   },
 
   "icons": {
