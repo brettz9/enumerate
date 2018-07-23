@@ -8,7 +8,11 @@ to obtain search results directly from the URL bar. No need to first go to
 the search results page (unless you need more results and their descriptions,
 etc., in which case, that is also made available).
 
-![screenshot of usage](https://raw.githubusercontent.com/brettz9/enumerate/master/screenshots/omnibox-example.png)
+## Screenshots
+
+![Omnibox search terms](https://raw.githubusercontent.com/brettz9/enumerate/master/screenshots/omnibox-search-terms.png)
+
+![Omnibox selected](https://raw.githubusercontent.com/brettz9/enumerate/master/screenshots/omnibox-selected.png)
 
 ## Instructions
 
