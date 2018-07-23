@@ -16,3 +16,5 @@ to obtain search results directly from the URL bar
 
 1. Populate results based on Mediawiki API (where headers could advertise
     Mediawiki support?)
+1. Make another extension based on this which uses `activeTab` permission and a
+    different omnibox keyword to do a search of current site

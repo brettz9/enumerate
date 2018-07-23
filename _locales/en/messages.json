@@ -10,5 +10,37 @@
     },
     "Type_your_search_terms": {
       "message": "Type search terms to get results here..."
+    },
+    "result_content": {
+      "message": "$URL$ $TITLE$ $DESCRIPTION$",
+      "description": "Will appear when the user highlights a particular entry in the omnibox drop-down",
+      "placeholders": {
+        "url" : {
+          "content": "$1",
+          "example": "https://example.com"
+        },
+        "title": {
+          "content": "$2",
+          "example": "Some Link Title"
+        },
+        "description": {
+          "content": "$3",
+          "example": "An extended link description..."
+        }
+      }
+    },
+    "result_description": {
+      "message": "$TITLE$: $URL$",
+      "description": "Contains what will appear for each entry in the omnibox drop-down",
+      "placeholders": {
+        "url" : {
+          "content": "$1",
+          "example": "https://example.com"
+        },
+        "title": {
+          "content": "$2",
+          "example": "Some Link Title"
+        }
+      }
     }
 }
