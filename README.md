@@ -1,7 +1,7 @@
 # Enumerate
 
 A webextensions add-on
-([Firefox]()
+([Firefox](https://addons.mozilla.org/en-US/firefox/addon/enumerate/)
 or
 [Chrome]())
 to obtain search results directly from the URL bar. No need to first go to
