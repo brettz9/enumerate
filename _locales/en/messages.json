@@ -1,0 +1,14 @@
+{
+    "extensionName": {
+      "message": "Enumerate"
+    },
+    "extensionShortName": {
+      "message": "Enumerate"
+    },
+    "extensionDescription": {
+      "message": "Obtain search results directly from the URL bar"
+    },
+    "Enumerate": {
+        "message": "Enumerate"
+    }
+}

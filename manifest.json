@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "__MSG_extensionName__",
+  "short_name": "__MSG_extensionShortName__",
+  "description": "__MSG_extensionDescription__",
+  "author": "Brett Zamir",
+  "version": "0.1.0",
+  "homepage_url": "https://github.com/brettz9/enumerate/",
+
+  "permissions": ["<all_urls>"],
+
+  "omnibox": {
+      "keyword": "g"
+  },
+
+  "background": {
+    "scripts": ["polyfills/browser-polyfill.min.js", "lib/background.js"]
+  },
+
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "default_locale": "en",
+
+  "applications": {
+    "gecko": {
+      "id": "jid0-I2TxZgGZCinjqCrwk4GxEV1zZnk@jetpack"
+    }
+  }
+}
