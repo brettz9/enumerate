@@ -2,7 +2,7 @@
 
 A webextensions add-on
 ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/enumerate/)
-or Chrome (pending approval)
+or Chrome (pending approval))
 <!--
 [Chrome]())
 -->
