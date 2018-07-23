@@ -4,9 +4,17 @@ A webextensions add-on
 ([Firefox]()
 or
 [Chrome]())
-to obtain search results directly from the URL bar
+to obtain search results directly from the URL bar. No need to first go to
+the search results page (unless you need more results and their descriptions,
+etc., in which case, that is also made available).
 
 ![screenshot of usage](https://raw.githubusercontent.com/brettz9/enumerate/master/screenshots/omnibox-example.png)
+
+## Instructions
+
+1. Type `g` and a space to activate Enumerate.
+2. Type your search terms.
+3. Use the arrows or mouse to select one of the search results to go directly to that page.
 
 ## Credits
 

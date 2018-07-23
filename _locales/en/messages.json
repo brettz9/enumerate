@@ -42,5 +42,15 @@
           "example": "Some Link Title"
         }
       }
+    },
+    "full_search_results": {
+      "message": "Go to the full search results: $SEARCHURL$",
+      "description": "Indicates that user can go to the full search results",
+      "placeholders": {
+        "searchURL" : {
+          "content": "$1",
+          "example": "https://www.google.com/search?q=search+terms&ie=utf-8&oe=utf-8"
+        }
+      }
     }
 }
