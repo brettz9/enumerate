@@ -2,8 +2,10 @@
 
 A webextensions add-on
 ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/enumerate/)
-or
+or Chrome (pending approval)
+<!--
 [Chrome]())
+-->
 to obtain search results directly from the URL bar. No need to first go to
 the search results page (unless you need more results and their descriptions,
 etc., in which case, that is also made available).
