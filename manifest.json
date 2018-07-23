@@ -8,7 +8,7 @@
   "version": "0.1.0",
   "homepage_url": "https://github.com/brettz9/enumerate/",
 
-  "permissions": ["<all_urls>"],
+  "permissions": ["https://google.com/*", "activeTab"],
 
   "omnibox": {
       "keyword": "g"

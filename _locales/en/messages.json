@@ -8,7 +8,7 @@
     "extensionDescription": {
       "message": "Obtain search results directly from the URL bar"
     },
-    "Enumerate": {
-        "message": "Enumerate"
+    "Type_your_search_terms": {
+      "message": "Type search terms to get results here..."
     }
 }
