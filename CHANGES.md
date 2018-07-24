@@ -1,5 +1,9 @@
 # CHANGES
 
+## 0.1.3
+
+- Fix: Better parsing of results
+
 ## 0.1.2
 
 - Fix: Ensure heading is for results
