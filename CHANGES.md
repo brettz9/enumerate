@@ -1,5 +1,9 @@
 # CHANGES
 
+## 0.2.1
+
+- Fix: Ensure new option is (and shows as) `false` by default
+
 ## 0.2.0
 
 - Enhancement: Add option to remove "Go to the full search results" in favor

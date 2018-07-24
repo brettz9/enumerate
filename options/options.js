@@ -11,9 +11,9 @@ document.title = _('extensionName'); // If switch to tabs
 jml('section', await Promise.all([
     ['noFullSearchResultsLink']
 ].map(async ([preferenceKey]) => {
-    let enabled = true;
+    let enabled = false;
     try {
-        ({[preferenceKey]: enabled = true} = await browser.storage.local.get(preferenceKey));
+        ({[preferenceKey]: enabled = false} = await browser.storage.local.get(preferenceKey));
     } catch (err) {}
     return ['label', [
         ['input', {
