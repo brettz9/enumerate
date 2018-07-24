@@ -40,6 +40,7 @@ browser that our add-on cannot overcome.
 1. [Avoid need for Omnibox keyword (override)](https://bugzilla.mozilla.org/show_bug.cgi?id=1361327)
 1. [DescriptionStyleType](https://bugzilla.mozilla.org/show_bug.cgi?id=1323091) (Firefox lacking Chrome ability to have part of description bold or gray (text) or blue (URLs))
 1. [Registering multiple omnibox keywords](https://bugzilla.mozilla.org/show_bug.cgi?id=1478092)
+1. [`onDeleteSuggestion`](https://bugzilla.mozilla.org/show_bug.cgi?id=1478095)
 1. [Don't display keyword within highlighted](https://bugzilla.mozilla.org/show_bug.cgi?id=1409702) (minor)
 
 ## Possible to-dos
