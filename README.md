@@ -2,7 +2,9 @@
 
 A webextensions add-on
 ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/enumerate/)
-or [Chrome](https://chrome.google.com/webstore/detail/enumerate/ioepadelblgiflhfpilnemfndhmfngpf)) to obtain search results directly from the URL bar.
+or
+[Chrome](https://chrome.google.com/webstore/detail/enumerate/ioepadelblgiflhfpilnemfndhmfngpf))
+to obtain search results directly from the URL bar.
 
 No need to first go to the search results page (unless you need
 more results and their descriptions, etc., in which case, that
@@ -32,3 +34,5 @@ For site-specific search (of the site in the current tab), see
 
 1. Populate results based on Mediawiki API (where headers could advertise
     Mediawiki support?)
+1. Add option to remove "Go to the full search results" in favor of one
+    more entry (user can still access by normal search)
