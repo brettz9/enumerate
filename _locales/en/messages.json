@@ -1,56 +1,62 @@
 {
-    "extensionName": {
-      "message": "Enumerate"
-    },
-    "extensionShortName": {
-      "message": "Enumerate"
-    },
-    "extensionDescription": {
-      "message": "Obtain search results directly from the URL bar"
-    },
-    "Type_your_search_terms": {
-      "message": "Type search terms to get results here..."
-    },
-    "result_content": {
-      "message": "$URL$ $TITLE$ $DESCRIPTION$",
-      "description": "Will appear when the user highlights a particular entry in the omnibox drop-down",
-      "placeholders": {
-        "url" : {
-          "content": "$1",
-          "example": "https://example.com"
-        },
-        "title": {
-          "content": "$2",
-          "example": "Some Link Title"
-        },
-        "description": {
-          "content": "$3",
-          "example": "An extended link description..."
-        }
-      }
-    },
-    "result_description": {
-      "message": "$TITLE$: $URL$",
-      "description": "Contains what will appear for each entry in the omnibox drop-down",
-      "placeholders": {
-        "url" : {
-          "content": "$1",
-          "example": "https://example.com"
-        },
-        "title": {
-          "content": "$2",
-          "example": "Some Link Title"
-        }
-      }
-    },
-    "full_search_results": {
-      "message": "Go to the full search results: $SEARCHURL$",
-      "description": "Indicates that user can go to the full search results",
-      "placeholders": {
-        "searchURL" : {
-          "content": "$1",
-          "example": "https://www.google.com/search?q=search+terms&ie=utf-8&oe=utf-8"
-        }
+  "extensionName": {
+    "message": "Enumerate"
+  },
+  "extensionShortName": {
+    "message": "Enumerate"
+  },
+  "extensionDescription": {
+    "message": "Obtain search results directly from the URL bar"
+  },
+  "Type_your_search_terms": {
+    "message": "Type search terms to get results here..."
+  },
+  "result_content": {
+    "message": "$URL$ $TITLE$ $DESCRIPTION$",
+    "description": "Will appear when the user highlights a particular entry in the omnibox drop-down",
+    "placeholders": {
+      "url" : {
+        "content": "$1",
+        "example": "https://example.com"
+      },
+      "title": {
+        "content": "$2",
+        "example": "Some Link Title"
+      },
+      "description": {
+        "content": "$3",
+        "example": "An extended link description..."
       }
     }
+  },
+  "result_description": {
+    "message": "$TITLE$: $URL$",
+    "description": "Contains what will appear for each entry in the omnibox drop-down",
+    "placeholders": {
+      "url" : {
+        "content": "$1",
+        "example": "https://example.com"
+      },
+      "title": {
+        "content": "$2",
+        "example": "Some Link Title"
+      }
+    }
+  },
+  "full_search_results": {
+    "message": "Go to the full search results: $SEARCHURL$",
+    "description": "Indicates that user can go to the full search results",
+    "placeholders": {
+      "searchURL" : {
+        "content": "$1",
+        "example": "https://www.google.com/search?q=search+terms&ie=utf-8&oe=utf-8"
+      }
+    }
+  },
+  "noFullSearchResultsLink_title": {
+    "message": "No Full Search Results Link"
+  },
+  "noFullSearchResultsLink_description": {
+    "message": "Do not show the \"Full Search Results Link\" (in favor of one more search result item being able to be shown)"
+  }
 }

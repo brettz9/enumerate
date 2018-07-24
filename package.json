@@ -2,7 +2,7 @@
     "name": "enumerate-search",
     "author": "Brett Zamir",
     "contributors": [],
-    "version": "0.1.4",
+    "version": "0.2.0",
     "license": "MIT",
     "homepage": "https://github.com/brettz9/enumerate",
     "dependencies": {},
@@ -13,6 +13,7 @@
         "eslint-plugin-node": "7.0.1",
         "eslint-plugin-promise": "3.8.0",
         "eslint-plugin-standard": "3.1.0",
+        "jamilih": "0.35.0",
         "webextension-polyfill": "^0.3.0"
     },
     "scripts": {
@@ -24,6 +25,7 @@
         "webext-dev": "npm run eslint && web-ext run --browser-console -f firefoxdeveloperedition",
         "webext-build": "npm run eslint && web-ext build",
         "eslint": "eslint .",
+        "copy-jamilih": "cp node_modules/jamilih/dist/jml-noinnerh.js options/jml.js",
         "copy-polyfill": "cp node_modules/webextension-polyfill/dist/browser-polyfill.min.js polyfills/browser-polyfill.min.js && cp node_modules/webextension-polyfill/dist/browser-polyfill.min.js.map polyfills/browser-polyfill.min.js.map"
     },
     "engines": {},
