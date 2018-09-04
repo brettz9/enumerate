@@ -19,7 +19,7 @@ jml('section', await Promise.all([
             type: 'checkbox',
             checked: enabled,
             $on: {
-                change: async ({target}) => {
+                async change ({target}) {
                     await browser.storage.local.set({
                         [preferenceKey]: target.checked
                     });
