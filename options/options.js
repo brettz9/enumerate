@@ -1,5 +1,5 @@
 /* eslint-env browser, webextensions */
-import jml from './jml.js';
+import {jml, body} from './jml.js';
 
 function _ (...args) {
     return browser.i18n.getMessage(...args);
@@ -33,5 +33,5 @@ jml('section', await Promise.all([
         ]],
         ['br']
     ]];
-})), document.body);
+})), body);
 })();

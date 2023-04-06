@@ -1,36 +1,34 @@
 {
-  "manifest_version": 2,
-
+  "manifest_version": 3,
   "name": "__MSG_extensionName__",
   "short_name": "__MSG_extensionShortName__",
   "description": "__MSG_extensionDescription__",
   "author": "Brett Zamir",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "homepage_url": "https://github.com/brettz9/enumerate/",
-
-  "permissions": ["https://www.google.com/*", "storage"],
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.google.com/*"
+  ],
   "options_ui": {
     "page": "options/options.html",
     "browser_style": true,
-    "chrome_style": true,
     "open_in_tab": false
   },
-
   "omnibox": {
     "keyword": "g"
   },
-
   "background": {
-    "page": "lib/background.html"
+    "type": "module",
+    "service_worker": "lib/background.js"
   },
-
   "icons": {
     "128": "icon.png"
   },
-
   "default_locale": "en",
-
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "enumerator@brett-zamir.me"
     }
