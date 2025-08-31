@@ -1,21 +1,21 @@
 {
   "name": "enumerate-search",
   "author": "Brett Zamir",
+  "type": "module",
   "contributors": [],
   "version": "0.3.0",
   "license": "MIT",
   "homepage": "https://github.com/brettz9/enumerate",
   "devDependencies": {
-    "convert-manifest-format": "^0.3.1",
-    "eslint": "8.37.0",
-    "eslint-config-standard": "17.0.0",
-    "eslint-plugin-import": "2.27.5",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-standard": "4.1.0",
-    "jamilih": "0.54.0",
-    "webextension-polyfill": "^0.10.0"
+    "convert-manifest-format": "^0.9.0",
+    "eslint": "9.34.0",
+    "eslint-config-ash-nazg": "39.0.1",
+    "jamilih": "0.60.0",
+    "webextension-polyfill": "^0.12.0"
   },
+  "browserslist": [
+    "firefox > 116, chrome > 112"
+  ],
   "scripts": {
     "chrome": "convert-manifest-format --chrome && npm run webext-build",
     "firefox": "convert-manifest-format --firefox && npm run webext-build",
